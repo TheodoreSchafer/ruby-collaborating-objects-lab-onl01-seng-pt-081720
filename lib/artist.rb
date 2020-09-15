@@ -2,7 +2,6 @@ class Artist
 
   attr_accessor :name, :songs
 
-  @@all = [] #array of artists
 
   def initialize(name)
     @name = name
@@ -13,7 +12,7 @@ class Artist
   def self.all
     return @@all
   end
-  
+
   def save
     @@all << self
   end
