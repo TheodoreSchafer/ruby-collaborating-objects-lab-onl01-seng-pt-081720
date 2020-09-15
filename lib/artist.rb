@@ -24,7 +24,7 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    Artist.new(name)
+    self.all || Artist.new(name)
   end
 
 end
