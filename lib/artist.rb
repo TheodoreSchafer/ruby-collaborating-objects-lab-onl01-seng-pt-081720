@@ -8,8 +8,9 @@ class Artist
     @name = name
     @songs = []
     @@all
-
   end
+
+
 
 
 
