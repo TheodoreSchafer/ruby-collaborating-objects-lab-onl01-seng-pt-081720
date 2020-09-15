@@ -10,17 +10,17 @@ class Artist
     @@all
   end
 
-  def add_song(song)
-    @songs << song
-  end
-
   def self.all
     @@all
   end 
 
-  def self.find_or_create_by_name(name)
-
+  def add_song(song)
+    @songs << song
   end
+
+  
+
+  
 
   def print_songs
     puts @songs.collect {|x| x.name}
