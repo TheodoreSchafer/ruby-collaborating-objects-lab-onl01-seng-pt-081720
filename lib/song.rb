@@ -16,7 +16,8 @@ class Song
   end
 
   def self.new_by_filename(name)
-  end 
+    self.all.detect{|song| song.name == name} || Song.new(name)
+  end
 
 
 
