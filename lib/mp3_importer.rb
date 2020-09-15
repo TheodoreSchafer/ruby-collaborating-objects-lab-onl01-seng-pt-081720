@@ -7,7 +7,7 @@ class MP3Importer
 
   def files
     @files = DIR.entries(@path)
-    @files.delete_if {|file| }
+    @files.delete_if {|file| file == "." || ".."}
   end
 
 
