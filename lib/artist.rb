@@ -18,20 +18,8 @@ class Artist
     @songs << song
   end
 
-
-
-
-
   def print_songs
     puts @songs.collect {|x| x.name}
   end
-
-
-
-
-
-
-
-
 
 end
