@@ -7,6 +7,10 @@ class Artist
     @name = name
   end
 
+  def self.all
+    
+  end
+
 
 
 
