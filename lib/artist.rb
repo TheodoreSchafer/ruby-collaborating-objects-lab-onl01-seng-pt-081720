@@ -14,9 +14,6 @@ class Artist
     @@all << self
   end 
 
-  def self.all
-    @@all
-  end
 
 
 
@@ -43,6 +40,15 @@ class Artist
     puts @songs.collect {|x| x.name}
 
   end
+
+
+  
+  
+  def self.all
+    @@all
+
+
+  end 
 
 
 
