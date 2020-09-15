@@ -7,14 +7,14 @@ class Song
   end
 
   def self.new_by_filename
-    
 
 
-  end 
+
+  end
 
   def artist_name(name)
     
-  end 
+  end
 
 
 
