@@ -15,8 +15,8 @@ class Song
     @@all
   end
 
-  def self.new_by_filename(name)
-    
+  def self.new_by_filename(file)
+    song_name = file.splt
   end
 
   def artist_name=(name)
