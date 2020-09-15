@@ -7,7 +7,7 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    @@all
+    
   end
 
   def self.all
@@ -26,9 +26,6 @@ class Artist
     puts @songs.collect {|x| x.name}
   end
 
-  def self.all
-    @@all
-  end
 
 
 
