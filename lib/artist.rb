@@ -9,7 +9,8 @@ class Artist
   end
 
   def self.all
-    @@all
+    return @@all
+
   end
 
   def add_song(song)
@@ -28,7 +29,7 @@ class Artist
     artist = self.new(name)
     @@all << artist
     artist
-  end 
+  end
 
 
 
